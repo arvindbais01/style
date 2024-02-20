@@ -1,0 +1,21 @@
+*
+
+img{
+    left: 50%;
+top:50%;
+   position: absolute;
+transform: translate(-50%, -50%);
+transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+height: 50%;
+
+}
+
+#a1{
+     left: 20%;
+}
+#a2{
+    left: 80%;
+}
+    img:hover{
+        height: 70%;
+    } 
